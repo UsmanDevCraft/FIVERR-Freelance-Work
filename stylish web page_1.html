@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body{
+           background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)) , url(http://cdn.home-designing.com/wp-content/uploads/2016/01/dark-and-light-bedroom.jpg);
+           background-repeat: no-repeat;
+           background-attachment: fixed;
+           background-size: cover;   
+           width: 98%;
+           height: 45vw;
+           /* position: relative;
+           padding-bottom: 120px; */
+        }
+        .clo{
+            margin-left: 50em;
+            padding-top: 40px;
+        }
+        #dlo{
+            text-decoration: none;
+            list-style-type: none;
+            display: inline;
+            margin-left: 10px;
+            color: white;
+            position: relative;
+            text-transform: uppercase;
+        }
+        #dlo::after{
+            content: '';
+            height: 3px;
+            width: 0;
+            background: #009688;
+            position: absolute;
+            left: 4px;
+            bottom: -7px;
+            transition: 0.5s;
+        }
+        #dlo:hover::after{
+            width: 100%;
+        }
+        .rlo{
+           text-align: center;
+           display: center;
+           color: white;
+        }
+        #tlo{
+            margin-top: 20%;
+        }
+        #tt{
+            margin-left: 33em;
+        }
+        .rrr{
+            text-align: center;
+        }
+        button{
+            width: 200px;
+            padding: 15px 0;
+            text-align: center;
+            margin: 20px 10px;
+            border-radius: 25px;
+            font-weight: bold;
+            border: 2px solid #009688;
+            background: transparent;
+            color: #fff;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        
+        }
+
+        button:hover{
+           background-color:#009968;
+           color: aliceblue;
+           transition: 1s;
+        }
+        button:active{
+            background-color: #009968;
+        }
+        .box{
+            margin-top: -56px;
+        }
+    </style>
+</head>
+<body>
+    <div class="plo">
+        <ul class="clo">
+            <li id="dlo"><a href="#" id="dlo">home</a></li>
+            <li id="dlo"><a href="#" id="dlo">kitchen</a></li>
+            <li id="dlo"><a href="#" id="dlo">bedroom</a></li>
+            <li id="dlo"><a href="#" id="dlo">basement</a></li>
+        </ul>
+    <div class="box">
+        <h1 class="rlo" id="tlo">DESIGN YOUR HOUSE</h1>
+        <p class="rlo">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+    </div>
+        <div class="rrr">
+            <button type="button">WATCH MORE</button>
+            <button type="button">SUBSCRIBE</button>
+         </div>
+    </div>
+</body>
+</html>

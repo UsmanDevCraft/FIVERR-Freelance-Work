@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRACCAR</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .traccar{
+            display: flex;
+            flex-direction: row;
+        }
+        .map{
+            display: inline-block;
+        }
+        .icons{
+            display: inline-block;
+            width: 50%;
+        }
+        .icons1{
+            margin-top: 150px;
+        }
+        .map-1{
+            width: 100%;
+            height: 45vw; 
+        }
+        .heads{
+            text-align: center;
+            margin-top: 40px;
+            margin-left: -35px;
+        }
+        .heads1 .list{
+            list-style-type: none;
+            text-transform: uppercase;
+            display: inline;
+        }
+        .heads2 .list1{
+            list-style-type: none;
+            display: inline;
+        }
+        .heads3 .list2{
+            list-style-type: none;
+            display: inline;
+        }
+        .heads4 .list3{
+            list-style-type: none;
+            display: inline;
+        }
+        .list{
+            border-color: black;
+            border-width: 1px;
+            border-style: solid;
+            padding: 7px 12px;
+        }
+        .list1{
+            margin:20px;
+
+        }
+        .list2{
+            margin:20px;
+        }
+        .list3{
+            margin:20px;
+        }
+
+
+
+        
+        .map-1:hover{
+            width: 101%;
+            height: 46vw;
+            transition: 1s;
+        }
+        .tttt:hover{
+            width: 10%;
+            height: 5vw;
+            transition: 2s;
+        }
+        .list:hover{
+            background-color: black;
+            transition: 1s;
+        }
+    </style>
+</head>
+<body>
+    <div class="traccar">
+        <div class="icons">
+            <div class="heads">
+                <ul class="heads1">
+                    <li class="list" ><a href="#"  style="color: rgb(20, 243, 20); text-decoration: none;" >status</a></li>
+                    <li class="list" ><a href="#" style="color: rgb(95, 94, 94); text-decoration: none;">ignition</a></li>
+                    <li class="list" ><a href="#" style="color: orange; text-decoration: none;">voltage</a></li>
+                    <li class="list" ><a href="#" style="color:red ; text-decoration: none;">temperature</a></li>
+                    <li class="list" ><a href="#" style="color: blue ; text-decoration: none;">speed</a></li>
+                </ul>
+            </div>  
+            <div class="icons1">
+                <ul class="heads2">
+                    <li class="list1" style="color: green; font-size: xx-large;"><ion-icon class="tttt" name="radio-button-on-outline"></ion-icon></li>
+                    <li class="list1" style="color: green; font-size: xx-large;"><ion-icon class="tttt" name="arrow-forward-circle-outline"></ion-icon></li>
+                    <li class="list1" style="color: green; font-size: xx-large;"><ion-icon class="tttt" name="rocket-outline"></ion-icon></li>
+                    <li class="list1" style="color: orange; font-size: xx-large;"><ion-icon class="tttt" name="flash-outline"></ion-icon></li>
+                    <li class="list1" style="color: red; font-size: xx-large;"><ion-icon class="tttt" name="thermometer-outline"></ion-icon></li>
+                    <li class="list1" style="color: blue; font-size: xx-large;"><ion-icon class="tttt" name="speedometer-outline"></ion-icon></li>
+                </ul>
+            </div>
+            <div class="icons2">
+                <ul class="heads3">
+                    <li class="list2" style="color:red ; font-size: xx-large;"><ion-icon class="tttt" name="remove-circle-outline"></ion-icon></li>
+                    <li class="list2" style="color: orange; font-size: xx-large;"><ion-icon class="tttt" name="radio-button-off-outline"></ion-icon></li>
+                    <li class="list2" style="color: gray; font-size: xx-large;"><ion-icon class="tttt" name="rocket-outline"></ion-icon></li>
+                    <li class="list2" style="color: orange; font-size: xx-large;"><ion-icon class="tttt" name="flash-outline"></ion-icon></li>
+                    <li class="list2" style="color: red; font-size: xx-large;"><ion-icon class="tttt" name="thermometer-outline"></ion-icon></li>
+                    <li class="list2" style="color: blue; font-size: xx-large;"><ion-icon class="tttt" name="speedometer-outline"></ion-icon></li>
+                </ul>
+            </div>
+            <div class="icons3">
+                <ul class="heads4">
+                    <li class="list3" style="color: orange; font-size: xx-large;"><ion-icon class="tttt" name="alert-circle-outline"></ion-icon></li>
+                    <li class="list3" style="color: orange; font-size: xx-large;"><ion-icon class="tttt" name="radio-button-off-outline"></ion-icon></li>
+                    <li class="list3" style="color: gray; font-size: xx-large;"><ion-icon class="tttt" name="rocket-outline"></ion-icon></li>
+                    <li class="list3" style="color: orange; font-size: xx-large;"><ion-icon class="tttt" name="flash-outline"></ion-icon></li>
+                    <li class="list3" style="color: red; font-size: xx-large;"><ion-icon class="tttt" name="thermometer-outline"></ion-icon></li>
+                    <li class="list3" style="color: blue; font-size: xx-large;"><ion-icon class="tttt" name="speedometer-outline"></ion-icon></li>
+                </ul>
+            </div>
+        </div>
+        <div class="map"><img class="map-1" src="https://images.unsplash.com/photo-1586449480537-3a22cf98b04c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Z29vZ2xlJTIwbWFwc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt=""></div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

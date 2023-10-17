@@ -1,0 +1,17 @@
+.backGround{
+    height: 650px;
+    width: 1250px;
+    background-image: url(canva_01.png);
+    position: relative;
+}
+.backGround .gif img{
+    position: absolute;
+    bottom: 40px;
+    animation-name: sonicrun;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes sonicrun{
+    0%{left: 0;}
+    100%{left: 80%;}
+}
